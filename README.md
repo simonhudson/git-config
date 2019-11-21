@@ -16,11 +16,11 @@ Useful git config/alias stuff
 
 ### Delete local branch
 * Set -> `git config --global alias.dl '!f() { git branch -D "$1"; }; f'`
-* Use -> `git dl my-branch
+* Use -> `git dl my-branch`
 
 ### Delete remote branch
 * Set -> `git config --global alias.dr '!f() { git push origin --delete "$1"; }; f'`
-* Use -> `git dr my-branch
+* Use -> `git dr my-branch`
 
 ### Log commits from today
 * Set -> `git config --global alias.donetoday 'log --since="00:00:00" --no-merges --oneline --author=<you@email.com>'`
