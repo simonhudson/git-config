@@ -14,6 +14,10 @@ Useful git config/alias stuff
 * Set -> `git config --global alias.pnb '!f() { git push -u origin "$1"; }; f'`
 * Use -> `git pnb new-branch`
 
+### Commit
+* Set -> `git config --global alias.cm '!f() { git commit -m "$1"; }; f'`
+* Use -> `git cm "my commit message"`
+
 ### Delete local branch
 * Set -> `git config --global alias.dl '!f() { git branch -D "$1"; }; f'`
 * Use -> `git dl my-branch`
